@@ -18,14 +18,6 @@
 /* Header */
 
 .logo img {
-<<<<<<< HEAD
-	width: 250px;
-	height: 70px;
-}
-
-.logo {
-	padding: 0px 600px; 
-=======
 	width: 100%;
 	height: 90px;
 	margin: auto;
@@ -34,17 +26,10 @@
 .logo {
 	width: 20%;
 	margin: auto;
->>>>>>> 677db03 (Actualizacion estilos)
 }
 
 nav {
 	width: 100%;
-<<<<<<< HEAD
-}
-
-.menu {
-	padding: 0px 570px;
-=======
 	margin: 20px auto;
 }
 
@@ -52,7 +37,6 @@ nav {
 	width: 50%;
 	margin: auto;
 	text-align: center;
->>>>>>> 677db03 (Actualizacion estilos)
 }
 
 .menu li a {
@@ -63,12 +47,6 @@ nav {
 	font-family: arial; 
 }
 
-<<<<<<< HEAD
-/* Section Index */
-
-.section_index{
-	height: 430px;
-=======
 main {
 	width: 90%;
 	margin: auto;
@@ -77,30 +55,21 @@ main {
 /* Section Index */
 
 .section_index{
->>>>>>> 677db03 (Actualizacion estilos)
 	display: flex;
 }
 
 .articulo_index {
-<<<<<<< HEAD
-	width: 30%;
-=======
 	width: 40%;
->>>>>>> 677db03 (Actualizacion estilos)
 	margin-right: 20px;
 }
 
 .titulo_index {
 	text-align: start;
 	border-bottom: 3px solid black;
-<<<<<<< HEAD
-	line-height: 10px;
-=======
 }
 
 .titulo_index h1 {
 	margin: auto;
->>>>>>> 677db03 (Actualizacion estilos)
 }
 
 .titulo_index h2 {
@@ -109,19 +78,12 @@ main {
 
 .p_index {
 	text-align: justify;
-<<<<<<< HEAD
-}
-
-.img_index {
-	width: 70%;
-=======
 	line-height: 22px;
 }
 
 .img_index {
 	width: 60%;
 	margin: auto;
->>>>>>> 677db03 (Actualizacion estilos)
 }
 
 .img_index img {
@@ -132,23 +94,16 @@ main {
 
 /* Aside Index */
 
-<<<<<<< HEAD
-=======
 aside {
 	text-align: center;
 }
 
->>>>>>> 677db03 (Actualizacion estilos)
 .d_enlaces {
 	border: 2px solid black;
 	box-shadow: 3px 5px 9px black;
     height: 120px;
 	width: 210px;
-<<<<<<< HEAD
-	margin: 40px 79px 10px;
-=======
 	margin: 40px 50px 10px;
->>>>>>> 677db03 (Actualizacion estilos)
   	text-align: center;
 	border-radius: 20px;
 }
@@ -297,11 +252,7 @@ footer {
 
 .img_solidario img {
 	width: 300px;
-<<<<<<< HEAD
-	margin: 0 65px;
-=======
 	margin: 0 35px;
->>>>>>> 677db03 (Actualizacion estilos)
 	border-radius: 30px;
 }
 
