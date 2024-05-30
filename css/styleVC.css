@@ -1,0 +1,63 @@
+/*Ventas*/
+
+.banner img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 3px 4px #ccc;
+}
+
+.p_destacados  {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+
+.div_ventas {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.ul_ventas {
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.ul_ventas li {
+    list-style: none;
+    margin: 10px;
+    width: 40%;
+    height: 350px;
+}
+
+.ul_ventas li img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+.a_ventas {
+    font-weight: inherit;
+    text-decoration: none;
+    color: #676767;
+    font-size: 20px;
+}
+
+.ul_ventas li p {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.mas_productos {
+    text-align: right;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.mas_productos a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
