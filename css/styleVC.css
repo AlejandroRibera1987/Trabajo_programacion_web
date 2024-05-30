@@ -6,35 +6,34 @@
     box-shadow: 4px 3px 4px #ccc;
 }
 
-.p_destacados  {
+.t_ventas  {
     text-align: center;
     margin: auto;
     font-size: 25px;
+    text-transform: uppercase;
 }
 
 .div_ventas {
     text-align: center;
-    width: 80%;
     margin: auto;
 }
 
 .ul_ventas {
-    display: flex;
+    display: inline-block;
     margin: 20px auto;
     align-items: center;
 }
 
 .ul_ventas li {
-    list-style: none;
+    display: inline-block;
     margin: 10px;
-    width: 40%;
+    width: 250px;
     height: 350px;
 }
 
 .ul_ventas li img {
     width: 250px;
     height: 250px;
-    display: block;
     margin: auto;
 }
 
@@ -46,6 +45,7 @@
 }
 
 .ul_ventas li p {
+    font-size: 25px;
     font-weight: bold;
     margin: 5px;
 }
@@ -60,4 +60,42 @@
     font-size: 20px;
     text-decoration: none;
     color: black;
+}
+
+.suscribite {
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.t_suscribite {
+    width: 40%;
+    display: flex;
+    font-weight: normal;
+}
+
+form {
+    display: inline-block;
+    width: 60%;
+}
+
+.i_suscribite {
+    width: 60%;
+    height: 35px;
+    padding: 0 10px;
+}
+
+.b_suscribite {
+    width: 150px;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+    color: white;
+    background-color: #1D93AB;
+    text-transform: uppercase;
+}
+
+.b_suscribite:hover {
+    cursor: pointer;
 }
