@@ -47,10 +47,6 @@ nav {
 	font-family: arial; 
 }
 
-main {
-	width: 90%;
-	margin: auto;
-}
 
 /* Section Index */
 
@@ -157,11 +153,13 @@ footer {
 
 .t_servicio {
 	text-align: center;
+	margin: auto;
 	font-size: 40px;
 }
 
 .section_servicio {
-	margin: 0 150px;
+	width: 80%;
+	margin: 0 auto;
 	padding-bottom: 30px;
 }
 
@@ -213,7 +211,8 @@ footer {
 /* Nosotros */
 
 .section_nosotros {
-	padding: 10px;
+	width: 80%;
+	margin: auto;
 }
 
 .img_nosotros {
@@ -248,6 +247,7 @@ footer {
 
 .t_aside {
 	line-height: 25px;
+	margin: 20px auto;
 }
 
 .img_solidario img {
@@ -262,11 +262,15 @@ footer {
 }
 
 .btn_conocer a {
-	background-color: rgb(47, 61, 255);
+	background-color: #2CCC38;
 	color: black;
 	text-decoration: none;
 	padding: 10px;
-	border-radius: 30px;
-	box-shadow: 4px 4px 4px black;
-	font-size: 30px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px black;
+	font-size: 25px;
+}
+
+.btn_conocer a:hover {
+	background-color: #1D93AB;
 }

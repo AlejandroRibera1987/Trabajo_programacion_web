@@ -1,5 +1,10 @@
 /*Ventas*/
 
+.banner {
+    width: 80%;
+    margin: auto;
+}
+
 .banner img {
     width: 100%;
     border-radius: 10px;
@@ -92,51 +97,127 @@ form {
     padding: 5px;
     margin: auto;
     color: white;
-    background-color: #1D93AB;
+    background-color: #2CCC38;
     text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
 }
 
 .b_suscribite:hover {
     cursor: pointer;
+    background-color: #1D93AB;
 }
 
 /* Contactos */
 
 .contacto {
-    width: 80%;
+    width: 90%;
     margin: auto;
+    background-image: url('../img/contacto_fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
+    box-shadow: 4px 4px 4px #ccc;
 }
 
-.img_form_contacto {
-    width: 60%;
+
+.info_empresa {
+    color: white;
+    width: 40%;
+    height: 100%;
+    margin: 20px auto;
+    display: inline-block;
 }
 
-.img_form_contacto img {
-    width: 100%;
-    height: 600px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+.t_empresa {
+    font-size: 45px;
+    width: 500px;
+    display: block;
+}
+
+.contacto_empresa h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contacto_empresa p {
+    color: #2CCC38;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .form_contacto {
+    background-color: #534d4dd7;
+    border-radius: 20px;
     width: 40%;
+    margin: 30px auto;
+    text-align: center;
+    display: inline-block;
 }
 
 .form_casilleros {
-    width: 90%;
-    margin: 20px auto;
+    width: 70%;
+    margin: 15px auto;
 }
 
-.form_casilleros label {
+.label_contacto {
+    color: white;
     font-size: 20px;
-    width: 30%;
 }
 
-.form_casilleros input {
-    width: 60%;
-    height: 30px;
-    padding: 0 5px;
+.input_contacto {
+    width: 300px;
+    margin: 5px auto;
+    height: 25px;
+    border-radius: 10px;
     border: none;
-    border-bottom: 2px solid black;
+    padding: 0 10px;
+}
+
+.option_contacto {
+    width: 180px;
+    padding: 0 16px;
+    height: 30px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px auto;
+}
+
+.text_consulta {
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+.verificacion {
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+    background-color: #ccc;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.input_verificacion {
+    margin: 20px;
+}
+
+.p_verificacion {
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.b_enviar_contacto {
+    background-color: #2CCC38;
+    font-size: 20px;
+    height: 30px;
+    width: 40%;
+    color: white;
+    border: none;
+}
+
+.b_enviar_contacto:hover {
+    cursor: pointer;
+    background-color: #1D93AB;
 }

@@ -26,57 +26,69 @@
 
     <main>
         <div class="contacto">
-            <div class="img_form_contacto">
-                <img src="img/impresoraheader.jpg" alt="imagen de formulario">
+            <div class="info_empresa">
+                    <h2 class="t_empresa">¿Tenes algún Proyecto? Hablemos</h2>
+                    <div class="contacto_empresa">
+                        <h2>Visitanos en</h2>
+                        <p>Av. Corrientes 2037, C1001 Cdad. Autónoma de Buenos Aires</p>
+                    </div>
+                    <div class="contacto_empresa">
+                        <h2>Llamanos en</h2>
+                        <p>+10(67)367-4568</p>
+                    </div>
+                    <div class="contacto_empresa">
+                        <h2>Dejanos tus mensaje</h2>
+                        <p>info@ideas3d.com.ar</p>
+                    </div>
             </div>
+           
             <form action="nosotros.html" method="get" class="form_contacto">
                 <div class="form_casilleros">
                     <label for="nombre" class="f_family label_contacto">Nombre</label>
-                    <input type="text" id="nombre">
+                    <input type="text" id="nombre" class="input_contacto">
                 </div>
                 <div class="form_casilleros">
-                    <label for="apellido" class="f_family">Apellido</label>
-                    <input type="text" id="apellido">
+                    <label for="apellido" class="f_family label_contacto">Apellido</label>
+                    <input type="text" id="apellido" class="input_contacto">
                 </div>
-                <div>
-                    <label for="telefono_Fijo">Teléfono Fijo</label>
+                <div class="form_casilleros">
+                    <label for="telefono_Fijo" class="label_contacto">Teléfono Fijo</label>
                     <input type="radio" id="telefono_Fijo" name="telefono">
-                    <label for="celular">Teléfono Celular</label>
+                    <label for="celular" class="label_contacto">Teléfono Celular</label>
                     <input type="radio" id="celular" name="telefono">
                 </div>
                 <div class="form_casilleros">
-                    <label for="telefono" class="f_family">Teléfono</label>
-                    <input type="number" id="telefono">
+                    <label for="telefono" class="f_family label_contacto">Teléfono</label>
+                    <input type="number" id="telefono" class="input_contacto">
                 </div>
                 <div class="form_casilleros">
-                    <label for="mail" class="f_family">Correo</label>
-                    <input type="email" id="mail">
+                    <label for="mail" class="f_family label_contacto">Correo Electrónico</label>
+                    <input type="email" id="mail" class="input_contacto">
                 </div>
-                <div>
-                    <label for="tipo_consulta">Motivo de contacto</label>
-                    <select name="tipo_consulta" id="tipo_consulta">
-                        <option value="">selccione una opcion</option>
-                        <option value="">Compra</option>
-                        <option value="">Presupuesto</option>
-                        <option value="">Garantía</option>
-                        <option value="">Donaciones</option>
-                        <option value="">Otros..</option>
+                <div class="form_casilleros">
+                    <label for="tipo_consulta" class="label_contacto">Motivo de contacto</label>
+                    <select name="tipo_consulta" id="tipo_consulta" class="option_contacto">
+                        <option value="seleccione una opcion" >selccione una opcion</option>
+                        <option value="compra">Compra</option>
+                        <option value="presupuesto">Presupuesto</option>
+                        <option value="garantia">Garantía</option>
+                        <option value="donacion">Donaciones</option>
+                        <option value="otros">Otros..</option>
                     </select>
                 </div>
-                <div>
-                    <label for="consulta">Consulta</label>
-                    <textarea name="consulta" id="consulta"></textarea>
+                <div class="form_casilleros">
+                    <label for="consulta" class="label_contacto">Consulta</label>
+                    <textarea name="consulta" id="consulta" class="text_consulta"></textarea>
                 </div>
-                <div>
-                    <label for="verificacion">Verificacion</label>
+                <div class="form_casilleros">
                     <div class="verificacion">
-                        <input type="checkbox">
-                        <p>I´m not a robot</p>
+                        <input type="checkbox" class="input_verificacion">
+                        <p class="f_family p_verificacion">I´m not a robot</p>
                         <img src="img/verificacion.png" alt="verificacion" style="width: 30px; height: 30px;">
                     </div>
                 </div>
-                <div>
-                    <input type="button" value="Enviar">
+                <div class="form_casilleros">
+                    <input type="button" value="Enviar" class="input_contacto b_enviar_contacto f_family">
                 </div>
             </form>
         </div>
