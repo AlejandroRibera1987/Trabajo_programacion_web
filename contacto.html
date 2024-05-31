@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleVC.css">
+    <title>Ribera Alejandro || Parcial 1</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+		</div>
+		<nav>
+			<ul class="menu">
+				<li class="d_inline_block"><a href="index.html">Inicio</a></li>
+				<li class="d_inline_block"><a href="servicios.html">Servicio</a></li>
+				<li class="d_inline_block"><a href="nosotros.html">Nosotros</a></li>
+				<li  class="d_inline_block"><a href="productos.html">Productos</a></li>
+				<li  class="d_inline_block"><a href="contacto.html">Contacto</a></li>
+			</ul>
+			<hr>
+		</nav>
+	</header>
+
+    <main>
+        <div class="contacto">
+            <div class="img_form_contacto">
+                <img src="img/impresoraheader.jpg" alt="imagen de formulario">
+            </div>
+            <form action="nosotros.html" method="get" class="form_contacto">
+                <div class="form_casilleros">
+                    <label for="nombre" class="f_family label_contacto">Nombre</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div class="form_casilleros">
+                    <label for="apellido" class="f_family">Apellido</label>
+                    <input type="text" id="apellido">
+                </div>
+                <div>
+                    <label for="telefono_Fijo">Teléfono Fijo</label>
+                    <input type="radio" id="telefono_Fijo" name="telefono">
+                    <label for="celular">Teléfono Celular</label>
+                    <input type="radio" id="celular" name="telefono">
+                </div>
+                <div class="form_casilleros">
+                    <label for="telefono" class="f_family">Teléfono</label>
+                    <input type="number" id="telefono">
+                </div>
+                <div class="form_casilleros">
+                    <label for="mail" class="f_family">Correo</label>
+                    <input type="email" id="mail">
+                </div>
+                <div>
+                    <label for="tipo_consulta">Motivo de contacto</label>
+                    <select name="tipo_consulta" id="tipo_consulta">
+                        <option value="">selccione una opcion</option>
+                        <option value="">Compra</option>
+                        <option value="">Presupuesto</option>
+                        <option value="">Garantía</option>
+                        <option value="">Donaciones</option>
+                        <option value="">Otros..</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="consulta">Consulta</label>
+                    <textarea name="consulta" id="consulta"></textarea>
+                </div>
+                <div>
+                    <label for="verificacion">Verificacion</label>
+                    <div class="verificacion">
+                        <input type="checkbox">
+                        <p>I´m not a robot</p>
+                        <img src="img/verificacion.png" alt="verificacion" style="width: 30px; height: 30px;">
+                    </div>
+                </div>
+                <div>
+                    <input type="button" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+		<div class="logo_footer d_inline_block">
+			<a href="index.html"><img src="img/logo.png" alt="Logo_Footer"></a>
+		</div>
+		<div class="redes_sociales d_inline_block">
+			<ul class="d_inline_block">
+				<li class="d_inline_block"><a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="Facebook" class="f_redes_sociales"></a></li>
+				<li class="d_inline_block"><a href="https://twitter.com/" target="_blank"><img src="img/twitter.png" alt="Twitter" class="f_redes_sociales"></a></li>
+				<li class="d_inline_block"><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png" alt="Instagram" class="f_redes_sociales"></a></li>
+				<li class="d_inline_block"><a href="https://www.whatsapp.com/" target="_blank"><img src="img/whatsapp.png" alt="whatsapp" class="f_redes_sociales"></a></li>
+				<li class="d_inline_block"><a href="https://ar.linkedin.com/" target="_blank"><img src="img/linkedin.png" alt="linkedin" class="f_redes_sociales"></a></li>
+			</ul>
+		</div>	
+	</footer>
+</body>
+</html>
