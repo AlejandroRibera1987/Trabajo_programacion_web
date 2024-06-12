@@ -59,6 +59,8 @@ nav {
 .articulo_index {
 	width: 40%;
 	margin: auto 20px;
+	flex-grow: 1;
+	flex-basis: 50%;
 }
 
 .titulo_index {
