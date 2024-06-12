@@ -1,7 +1,6 @@
 @media only screen and (max-width: 768px) {
     .section_index {
         display: block;
-        background-color: blue;
-        text-align: center;
+        background-color:red;
     }
 }
