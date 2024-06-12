@@ -1,6 +1,50 @@
 @media only screen and (max-width: 768px) {
+/*Header*/ 
+ 
+    .logo {
+        width: 80%;
+        margin: auto;
+    }
+ 
+/*Section*/
+
     .section_index {
         display: block;
-        background-color:red;
+        align-items: center;
+    }
+
+    .articulo_index {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .articulo_index p {
+        line-height: 20px;
+    }
+
+    .img_index {
+        width: 100%;
+        margin: auto;
+    }
+
+
+/*Footer*/
+
+    .logo_footer  {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    .redes_sociales {
+        width: 100%;
+        text-align: center;
+    }
+
+    .redes_sociales ul {
+        margin: auto;
+        width: 80%;
     }
 }
