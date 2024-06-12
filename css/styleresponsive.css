@@ -31,20 +31,58 @@
 
 /*Footer*/
 
+    footer {
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+    }
+
     .logo_footer  {
         display: block;
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
     
     .redes_sociales {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
     .redes_sociales ul {
         margin: auto;
         width: 80%;
+    }
+
+/*Servicios*/
+
+    .responsive_servicio_article {
+        flex-direction: column-reverse;
+    }
+
+    .responsive_servicio_article_m {
+        flex-direction: column;
+    }
+
+    .texto_servicio {
+        width: 100%;
+    }
+
+    .texto_servicio h3 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .texto_servicio p {
+        line-height: 22px;
+    }
+
+    .section_servicio img {
+        width: 100%;
+    }
+
+    aside ul li img {
+        margin: 20px 0;
+        background-color: red;
     }
 }

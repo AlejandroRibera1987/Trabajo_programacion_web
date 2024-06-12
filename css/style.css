@@ -126,8 +126,8 @@ aside {
 
 footer {
 	margin: 30px 0;
-	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
+	display: flex;
 	border-top: 3px solid black;
 }
 
@@ -141,6 +141,7 @@ footer {
 }
 
 .redes_sociales {
+	margin: 20px 0;
 	width: 69%;
 	text-align: end;
 }
@@ -157,24 +158,34 @@ footer {
 
 .t_servicio {
 	text-align: center;
-	margin: auto;
+	margin: 0 auto 10px;
 	font-size: 40px;
 }
 
 .section_servicio {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	padding-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section_servicio article {
+	display: flex;
+	margin: 10px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 .f_servicio {
-	width: 30%;
+	width: 40%;
 	height: 200px;
 	margin-right: 10px;
 }
 
 .texto_servicio {
-	width: 59%;
+	width: 60%;
 	align-items: center;
 }
 
