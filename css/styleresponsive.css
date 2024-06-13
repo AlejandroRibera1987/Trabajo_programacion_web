@@ -83,6 +83,73 @@
 
     aside ul li img {
         margin: 20px 0;
-        background-color: red;
+    }
+
+/*Nosotros*/
+
+    .section_nosotros {
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .a_nosotros {
+        width: 100%;
+        margin: auto;
+    }
+
+    .a_nosotros p {
+        text-align: center;
+    }
+
+    .img_nosotros {
+        width: 100%;
+    }
+
+    .t_aside {
+        text-align: center;
+    }
+
+    .img_aside_solidario {
+        justify-content: center;
+    }
+
+    .img_aside_solidario ul {
+        display: block;
+    }
+
+    .img_aside_solidario ul li {
+        margin: 10px 0;
+    }
+
+    .btn_conocer {
+        margin-bottom: 30px;
+    }
+
+/* productos */
+
+    .suscribite {
+        display: block;
+        width: 100%;
+    }
+
+    .t_suscribite {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .suscribite form {
+        width: 80%;
+        margin: auto;
+        display: block;
+        justify-content: center;
+    }
+
+    .i_suscribite {
+      width: 92%;
+      margin: 10px 0;
+    }
+
+    .b_suscribite {
+        width: 100%;
     }
 }
