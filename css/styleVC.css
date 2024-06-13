@@ -125,15 +125,11 @@ form {
 .info_empresa {
     color: white;
     width: 40%;
-    height: 100%;
     margin: 20px auto;
-    display: inline-block;
 }
 
 .t_empresa {
     font-size: 45px;
-    width: 500px;
-    display: block;
 }
 
 .contacto_empresa h2 {

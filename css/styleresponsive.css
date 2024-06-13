@@ -152,4 +152,29 @@
     .b_suscribite {
         width: 100%;
     }
+
+/* Contacto */
+
+    .contacto {
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .info_empresa {
+        display: block;
+        width: 80%;
+    }
+
+    .form_contacto {
+        width: 90%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form_casilleros {
+        display: grid;
+        width: 100%;
+    }
 }
