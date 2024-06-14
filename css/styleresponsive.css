@@ -217,4 +217,8 @@
         display: grid;
         width: 100%;
     }
+
+    .verificacion {
+        width: 80%;
+    }
 }
