@@ -5,13 +5,10 @@
         display: none;
     }
 
-    .menu_hamburguesa  {
-        width: 50px;
-    }
     .menu_hamburguesa {
         display: block;
         text-align: center;
-        width: 30%;
+        width: 50px;
         margin: auto;
     }
 
@@ -23,10 +20,9 @@
         display: none;
     }
 
-    .menu_check:checked + .menu {
+    .menu_check:checked + .menu{
         display: block;
     }
-
 
 
     /*Header*/ 
