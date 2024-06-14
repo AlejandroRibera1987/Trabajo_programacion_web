@@ -56,6 +56,9 @@ nav {
 	font-family: arial; 
 }
 
+.menu li a:hover {
+	font-weight: bold;
+}
 
 /* Section Index */
 
