@@ -1,5 +1,28 @@
-@media only screen and (max-width: 768px) {
-/*Header*/ 
+@media screen and (max-width: 768px) {
+/*Menu Hamburguesa */
+    
+    .menu_check {
+        display: none;
+    }
+
+    .menu_hamburguesa img {
+        width: 50px;
+    }
+    .menu_hamburguesa {
+        display: block;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu_check:checked ~ .menu {
+        display: inline;
+      }
+
+
+    /*Header*/ 
  
     .logo {
         width: 80%;
@@ -126,6 +149,16 @@
     }
 
 /* productos */
+
+    .div_ventas {
+        width: 100%;
+    }
+
+    .ul_ventas {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
 
     .suscribite {
         display: block;

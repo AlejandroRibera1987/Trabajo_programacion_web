@@ -1,3 +1,15 @@
+.menu_hamburguesa {
+	display: none;
+	text-align: center;
+	width: 30%;
+	margin: auto;
+}
+
+
+.menu_hamburguesa img {
+	width: 50px;
+}
+
 .d_inline_block {
 	display: inline-block;
 }
