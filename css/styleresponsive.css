@@ -20,9 +20,15 @@
         display: none;
     }
 
+
     .menu_check:checked + .menu{
-        display: block;
+        display: flex;
+        width: 80%;
+        margin: auto;
+        gap: 5px;
+        flex-direction: column;
     }
+
 
 
     /*Header*/ 
@@ -31,6 +37,7 @@
         width: 80%;
         margin: auto;
     }
+
  
 /*Section*/
 

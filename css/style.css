@@ -3,6 +3,10 @@
 	cursor: pointer;
 }
 
+.cerrar_menu_hamburguesa {
+	display: none;
+}
+
 .menu_check {
 	display: none;
 }
