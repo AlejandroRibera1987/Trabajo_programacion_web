@@ -5,21 +5,28 @@
         display: none;
     }
 
-    .menu_hamburguesa img {
+    .menu_hamburguesa  {
         width: 50px;
     }
     .menu_hamburguesa {
         display: block;
+        text-align: center;
+        width: 30%;
+        margin: auto;
+    }
 
+    .cerrar_menu_hamburguesa {
+        display: none;
     }
 
     .menu {
         display: none;
     }
 
-    .menu_check:checked ~ .menu {
-        display: inline;
-      }
+    .menu_check:checked + .menu {
+        display: block;
+    }
+
 
 
     /*Header*/ 
@@ -50,7 +57,11 @@
         width: 100%;
         margin: auto;
     }
+/*Index*/
 
+    .d_enlaces:last-child {
+        margin-bottom: 30px;
+    }
 
 /*Footer*/
 

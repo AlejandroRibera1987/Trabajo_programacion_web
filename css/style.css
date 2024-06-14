@@ -1,10 +1,7 @@
 .menu_hamburguesa {
 	display: none;
-	text-align: center;
-	width: 30%;
-	margin: auto;
+	cursor: pointer;
 }
-
 
 .menu_hamburguesa img {
 	width: 50px;
