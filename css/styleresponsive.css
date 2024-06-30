@@ -71,6 +71,10 @@
         margin: auto;
     }
 
+    .img_index img {
+        height: 300px;
+    }
+
 /*Footer*/
 
     footer {
