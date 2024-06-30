@@ -1,15 +1,17 @@
 @media screen and (max-width: 768px) {
 /*Menu Hamburguesa */
-    
-    .menu_check {
-        display: none;
+    .menu_responsive{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 80%;
+        align-items: center;
     }
 
     .menu_hamburguesa {
         display: block;
         text-align: center;
         width: 50px;
-        margin: auto;
+        margin: auto 30px;
     }
 
     .cerrar_menu_hamburguesa {
@@ -34,8 +36,7 @@
     /*Header*/ 
  
     .logo {
-        width: 80%;
-        margin: auto;
+        width: 50%;
     }
 
  
@@ -49,7 +50,6 @@
     .articulo_index {
         width: 100%;
         margin: auto;
-        text-align: center;
     }
 
     .articulo_index p {
@@ -134,16 +134,8 @@
         margin: auto;
     }
 
-    .a_nosotros p {
-        text-align: center;
-    }
-
     .img_nosotros {
         width: 100%;
-    }
-
-    .t_aside {
-        text-align: center;
     }
 
     .img_aside_solidario {
