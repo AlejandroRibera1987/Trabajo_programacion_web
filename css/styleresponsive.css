@@ -66,6 +66,11 @@
         margin-bottom: 30px;
     }
 
+    .f_enlaces {
+        width: 30%;
+        margin: auto;
+    }
+
 /*Footer*/
 
     footer {
